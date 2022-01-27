@@ -3,7 +3,7 @@ ls
 dir env:
 Write-Host $env:ASOC_SCAN_NAME
 Write-Host $env:ASOC_APPID
-$baseURL = 'https://cloud.appscan.com/api/V2'
+$baseURL = 'https://cloud.appscan.com/eu/api/V2'
 $env:ASoC_IRX_Config_file = "appscan-config.xml"
 $bearer_token =''
 
